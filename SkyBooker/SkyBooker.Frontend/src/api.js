@@ -1,14 +1,14 @@
 // ─── Backend Service URLs ────────────────────────────────────────────────────
 // Update these ports if your backend runs on different ports
 export const API = {
-  auth:       'http://localhost:5010/api/auth',
-  flight:     'http://localhost:5001/api/flight',
-  booking:    'http://localhost:5214/api/booking',
-  seat:       'http://localhost:5002/api/seat',
-  passenger:  'http://localhost:5290/api/passenger',
-  payment:    'http://localhost:5087/api/payment',
-  notification: 'http://localhost:5006/api/notification',
-  airline:    'http://localhost:5008/api/airlines',
+  auth:         import.meta.env.VITE_API_AUTH         || 'http://localhost:5010/api/auth',
+  flight:       import.meta.env.VITE_API_FLIGHT       || 'http://localhost:5001/api/flight',
+  booking:      import.meta.env.VITE_API_BOOKING      || 'http://localhost:5214/api/booking',
+  seat:         import.meta.env.VITE_API_SEAT         || 'http://localhost:5002/api/seat',
+  passenger:    import.meta.env.VITE_API_PASSENGER    || 'http://localhost:5290/api/passenger',
+  payment:      import.meta.env.VITE_API_PAYMENT      || 'http://localhost:5087/api/payment',
+  notification: import.meta.env.VITE_API_NOTIFICATION || 'http://localhost:5006/api/notification',
+  airline:      import.meta.env.VITE_API_AIRLINE      || 'http://localhost:5008/api/airlines',
 };
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
