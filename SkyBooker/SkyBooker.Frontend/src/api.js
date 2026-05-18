@@ -1,14 +1,14 @@
 // ─── Backend Service URLs ────────────────────────────────────────────────────
 // Update these ports if your backend runs on different ports
 export const API = {
-  auth:       'http://localhost:5010/api/auth',
-  flight:     'http://localhost:5001/api/flight',
-  booking:    'http://localhost:5214/api/booking',
-  seat:       'http://localhost:5002/api/seat',
-  passenger:  'http://localhost:5290/api/passenger',
-  payment:    'http://localhost:5087/api/payment',
-  notification: 'http://localhost:5006/api/notification',
-  airline:    'http://localhost:5008/api/airlines',
+  auth:       'https://skybooker-auth-la7d.onrender.com/api/auth',
+  flight:     'https://skybooker-flight-x36m.onrender.com/api/flight',
+  booking:    'https://skybooker-booking-2ws8.onrender.com/api/booking',
+  seat:       'https://skybooker-seat-ejtb.onrender.com/api/seat',
+  passenger:  'https://skybooker-passenger-l9dl.onrender.com/api/passenger',
+  payment:    'https://skybooker-payment-qy5w.onrender.com/api/payment',
+  notification: 'https://skybooker-notification-o6ak.onrender.com/api/notification',
+  airline:    'https://skybooker-airline-5xwu.onrender.com/api/airlines',
 };
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
